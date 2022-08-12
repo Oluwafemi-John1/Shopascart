@@ -3,10 +3,23 @@
     color: whitesmoke;
 }
 
-.insign:hover {
+#signin {
+    background-color: white;
+    color: whitesmoke;
+    font-size:17px;
+    font-weight:500;
+    color:black
+}
+
+#signin:hover {
     color: #D92D20;
 }
 
+#hover {
+    color:black; 
+    font-size:17px;
+    font-weight:500
+}
 #hover:hover {
     color: #D92D20;
 }

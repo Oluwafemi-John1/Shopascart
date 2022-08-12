@@ -1,0 +1,28 @@
+* {
+    border: 0;
+    padding: 0;
+}
+.text-light {
+    background-color: #D92D20;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    line-height: 25.5px;
+    font-weight: 700;
+    padding: 20px 0 15px 0;
+}
+
+#order {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #EB7C74;
+}
+
+@media (max-width:770px) {
+    .text-light {
+        padding: 10px 25px 10px 25px;
+        font-size: 15px;
+        line-height: 30px;
+
+    }
+    
+}

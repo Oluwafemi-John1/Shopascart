@@ -1,6 +1,12 @@
 #signup {
     background-color: #D92D20;
     color: whitesmoke;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+div.py-lg-0 {
+    background-color: white;
 }
 
 #signin {
@@ -22,4 +28,12 @@
 }
 #hover:hover {
     color: #D92D20;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
 }

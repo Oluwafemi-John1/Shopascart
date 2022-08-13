@@ -1,4 +1,57 @@
-section {
+.sect {
     height: 52vh;
     background-color: #D92D20;
+}
+
+h1.ms-lg-5 {
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+#grocery {
+    color: #E7AAC7;
+    font-size: 15.5px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.arrow {
+    transform: translate(-47px,-2px);
+}
+
+.hero {
+    transform: translateY(-40px);
+    position: absolute;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:770px) {
+    .sect {
+        height: 33vh;
+    }
+
+    #grocery {
+        display: none;
+    }
+
+    h1.ms-lg-5 {
+        font-size: 35px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    
+    .hero {
+        display: none;
+    }
+
+    input.rounded-pill {
+        width: 250px;
+        margin-top: 20px;
+    }
+    
 }

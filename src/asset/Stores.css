@@ -1,5 +1,5 @@
 .store {
-    height: 50vh;
+    height: 55vh;
     background-color: white;
     z-index: 99;
     position: relative;
@@ -10,6 +10,9 @@
 }
 
 @media (max-width:770px) {
+    .store {
+        height: 70vh;
+    }
     .scroll {
         display: flex;
         flex-wrap: wrap;
@@ -17,7 +20,7 @@
         padding-left: 5px;
     }
 
-    .card {
+    .cardy {
         width: 160px;
         height: 200px;
         margin: 0 5px 0 5px;

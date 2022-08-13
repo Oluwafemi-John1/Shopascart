@@ -1,0 +1,18 @@
+.contain {
+    height: 35vh;
+    background-color: #D92D20;
+    color: white;
+}
+
+@media (max-width:770px) {
+   .contain {
+    height: 40vh;
+   }
+   h4.text-center.mt-5 {
+    font-size: 15px;
+   }
+   h2.shoppers {
+    font-size: 20px;
+    line-height: 28px;
+   }
+}

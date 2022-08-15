@@ -1,0 +1,13 @@
+.Social {
+    height:35vh
+}
+.socimg {
+    width: 180px;
+    height: 100px;
+}
+
+@media (max-width:770px) {
+    .socimg {
+        width: 150px;
+    }
+}

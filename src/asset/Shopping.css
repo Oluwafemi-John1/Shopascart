@@ -10,6 +10,25 @@
     color: #808181;
 }
 
+.bg-coli {
+    background-color: #A6F4C5;
+}
+
 .bg-coll {
-    background-color: ;
+    background-color: #E0F2FE;
+}
+
+@media (max-width:770px) {
+    /* #overflow {
+       width: 50vw;
+       display: flex;
+       overflow-x: scroll;
+       overflow-y: hidden;
+       height: 80vh;
+       
+    }
+
+    .shopping {
+        
+    } */
 }

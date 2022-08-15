@@ -1,0 +1,16 @@
+#cartplus {
+    height: 65vh;
+}
+#plus {
+    background-color: #D92D20;
+    color: white;
+}
+
+#plus a {
+    color: #D92D20;
+    background-color: white;
+}
+
+#accordion {
+    height: 70vh;
+}

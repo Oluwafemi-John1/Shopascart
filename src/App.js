@@ -6,6 +6,9 @@ import Container from './components/Container';
 import Stores from './components/Stores';
 import Contain from './components/Contain';
 import Shopping from './components/Shopping';
+import Social from './components/Social';
+import Shopascartplus from './components/Shopascartplus';
+import Faq from './components/Faq';
 
 const App = () => {
   return (
@@ -16,6 +19,9 @@ const App = () => {
       <Stores/>
       <Contain/>
       <Shopping/>
+      <Social/>
+      <Shopascartplus/>
+      <Faq/>
     </>
   );
 }
